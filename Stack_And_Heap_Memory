@@ -1,0 +1,29 @@
+📌 Stack vs Heap in Java & Memory Allocation
+
+In Java, memory is divided into two main areas:
+
+Stack Memory → Stores method calls, local variables, and references.
+
+Heap Memory → Stores objects and instance variables.
+
+📌 Stack Memory (LIFO – Last In, First Out) (Static Memory Allocation)
+✔ Used for method execution and local variables.
+✔ Fast access, but limited in size.
+✔ Automatically allocated and deallocated when the method ends.
+✔ Each thread has its own stack (Thread-Safe).
+✔ Memory is allocated at compile-time (before execution).
+✔ Size is fixed and determined when the method starts.
+✔ Deallocation happens automatically when the method ends.
+✔ Does not grow dynamically at runtime.
+✔ A new stack is created for every function in the code.
+
+
+📌 Heap Memory (Dynamic Memory Allocation)
+✔ Used for storing objects and instance variables.
+✔ Slower access than Stack but larger in size.
+✔ Objects in Heap remain until Garbage Collector removes them.
+✔ Shared across all threads (Not Thread-Safe).
+✔ Memory is allocated at runtime (not known at compile-time).
+✔ Objects can grow or shrink dynamically.
+✔ Garbage Collector manages deallocation, unlike Stack.
+✔ All the String objects are stored in an area called String Pool Constant.

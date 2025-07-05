@@ -1,0 +1,63 @@
+🟢 JVM is the heart of Java.
+
+It is responsible for running Java programs by converting bytecode into machine code for execution.
+
+🔹 Key Responsibilities:
+
+        Converts .class (bytecode) files into machine code.
+
+        Manages memory allocation (Heap, Stack).
+
+        Handles Garbage Collection (GC).
+
+        Enables platform independence (Write Once, Run Anywhere).
+
+🟠 JRE is JVM + Java libraries
+
+It provides everything needed to run Java programs but not to develop them.
+
+🔹 JRE Includes:
+
+        JVM (Java Virtual Machine)
+
+        Core Libraries (Java API, rt.jar, etc.)
+
+        Runtime Tools (like Java class loader)
+
+🔹 JRE Alone ≠ Java Development Environment
+
+        You cannot compile Java code with just JRE.
+
+        It only allows execution of Java applications.
+
+🔴 JDK = JRE + Development Tools
+
+JDK contains everything needed to develop and run Java applications.
+
+🔹 JDK Includes:
+
+JRE (which includes JVM and libraries)
+
+        Java Compiler (javac)
+
+        Debugging Tools (jdb)
+
+        JavaDoc (javadoc)
+
+        Other utilities (jar, jlink, etc.)
+
+🔹 JDK is Required for Developers
+
+        If you want to write, compile, and run Java code, you need JDK.
+
+
+
+📝 Quick Summary Table
+Feature	                            JVM	 JRE	  JDK
+Runs Java Programs	            ✅	✅	✅
+Provides Java API (libraries)	    ❌	✅	✅
+Includes JVM	                    ✅	✅	✅
+Includes Compiler (javac)	    ❌	❌	✅
+Includes Debugging Tools	    ❌	❌	✅
+Used by Developers	            ❌	❌	✅
+Used by End Users	            ❌	✅	✅
